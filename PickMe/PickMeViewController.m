@@ -22,6 +22,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
+    mapView.delegate = self;
+    
+    [self.view addSubview:mapView];
+    [NSThread detachNewThreadSelector:@selector(displayMap) toTarget:self withObject:nil];
 }
 
 - (void)viewDidUnload
@@ -59,6 +64,23 @@
     } else {
         return YES;
     }
+}
+
+- (void)displayMap
+{
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    span.latitudeDelta=0.2;
+    span.longitudeDelta=0.2;
+    
+    CLLocationCoordinate2D location;
+    location.latitude = 47.644747;
+    location.longitude = -122.305384;
+    region.span = span;
+    region.center = location;
+    
+    [mapView setRegion:region animated:TRUE];
+    [mapView regionThatFits:region];
 }
 
 @end

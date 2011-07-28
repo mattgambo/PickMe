@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface PickMeViewController : UIViewController
+@interface PickMeViewController : UIViewController <MKMapViewDelegate>
+{
+    MKMapView *mapView;
+}
+
+-(void)displayMap;
 
 @end
