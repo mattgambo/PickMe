@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E660FD13E137B1000D99F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E660FC13E137B1000D99F7 /* UIKit.framework */; };
+		41E660FF13E137B1000D99F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E660FE13E137B1000D99F7 /* Foundation.framework */; };
+		41E6610113E137B1000D99F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6610013E137B1000D99F7 /* CoreGraphics.framework */; };
+		41E6610713E137B1000D99F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41E6610513E137B1000D99F7 /* InfoPlist.strings */; };
+		41E6610913E137B1000D99F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6610813E137B1000D99F7 /* main.m */; };
+		41E6610D13E137B1000D99F7 /* PickMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6610C13E137B1000D99F7 /* PickMeAppDelegate.m */; };
+		41E6611013E137B1000D99F7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6610E13E137B1000D99F7 /* MainStoryboard_iPhone.storyboard */; };
+		41E6611313E137B1000D99F7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6611113E137B1000D99F7 /* MainStoryboard_iPad.storyboard */; };
+		41E6611613E137B1000D99F7 /* PickMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6611513E137B1000D99F7 /* PickMeViewController.m */; };
+		41E6611E13E137B1000D99F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6611D13E137B1000D99F7 /* SenTestingKit.framework */; };
+		41E6611F13E137B1000D99F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E660FC13E137B1000D99F7 /* UIKit.framework */; };
+		41E6612013E137B1000D99F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E660FE13E137B1000D99F7 /* Foundation.framework */; };
+		41E6612113E137B1000D99F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E6610013E137B1000D99F7 /* CoreGraphics.framework */; };
+		41E6612913E137B1000D99F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41E6612713E137B1000D99F7 /* InfoPlist.strings */; };
+		41E6612B13E137B1000D99F7 /* PickMeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 41E6612A13E137B1000D99F7 /* PickMeTests.h */; };
+		41E6612D13E137B1000D99F7 /* PickMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6612C13E137B1000D99F7 /* PickMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E6612213E137B1000D99F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E660EF13E137B1000D99F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E660F713E137B1000D99F7;
+			remoteInfo = PickMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41E660F813E137B1000D99F7 /* PickMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E660FC13E137B1000D99F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41E660FE13E137B1000D99F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41E6610013E137B1000D99F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41E6610413E137B1000D99F7 /* PickMe-Info.plist */ = {isa = PBXFileReference; path = "PickMe-Info.plist"; sourceTree = "<group>"; };
+		41E6610613E137B1000D99F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41E6610813E137B1000D99F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41E6610A13E137B1000D99F7 /* PickMe-Prefix.pch */ = {isa = PBXFileReference; path = "PickMe-Prefix.pch"; sourceTree = "<group>"; };
+		41E6610B13E137B1000D99F7 /* PickMeAppDelegate.h */ = {isa = PBXFileReference; path = PickMeAppDelegate.h; sourceTree = "<group>"; };
+		41E6610C13E137B1000D99F7 /* PickMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickMeAppDelegate.m; sourceTree = "<group>"; };
+		41E6610F13E137B1000D99F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		41E6611213E137B1000D99F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		41E6611413E137B1000D99F7 /* PickMeViewController.h */ = {isa = PBXFileReference; path = PickMeViewController.h; sourceTree = "<group>"; };
+		41E6611513E137B1000D99F7 /* PickMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickMeViewController.m; sourceTree = "<group>"; };
+		41E6611C13E137B1000D99F7 /* PickMeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickMeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E6611D13E137B1000D99F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		41E6612613E137B1000D99F7 /* PickMeTests-Info.plist */ = {isa = PBXFileReference; path = "PickMeTests-Info.plist"; sourceTree = "<group>"; };
+		41E6612813E137B1000D99F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41E6612A13E137B1000D99F7 /* PickMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickMeTests.h; sourceTree = "<group>"; };
+		41E6612C13E137B1000D99F7 /* PickMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E660F513E137B1000D99F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E660FD13E137B1000D99F7 /* UIKit.framework in Frameworks */,
+				41E660FF13E137B1000D99F7 /* Foundation.framework in Frameworks */,
+				41E6610113E137B1000D99F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E6611813E137B1000D99F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6611E13E137B1000D99F7 /* SenTestingKit.framework in Frameworks */,
+				41E6611F13E137B1000D99F7 /* UIKit.framework in Frameworks */,
+				41E6612013E137B1000D99F7 /* Foundation.framework in Frameworks */,
+				41E6612113E137B1000D99F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E660ED13E137B1000D99F7 = {
+			isa = PBXGroup;
+			children = (
+				41E6610213E137B1000D99F7 /* PickMe */,
+				41E6612413E137B1000D99F7 /* PickMeTests */,
+				41E660FB13E137B1000D99F7 /* Frameworks */,
+				41E660F913E137B1000D99F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E660F913E137B1000D99F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E660F813E137B1000D99F7 /* PickMe.app */,
+				41E6611C13E137B1000D99F7 /* PickMeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E660FB13E137B1000D99F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E660FC13E137B1000D99F7 /* UIKit.framework */,
+				41E660FE13E137B1000D99F7 /* Foundation.framework */,
+				41E6610013E137B1000D99F7 /* CoreGraphics.framework */,
+				41E6611D13E137B1000D99F7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E6610213E137B1000D99F7 /* PickMe */ = {
+			isa = PBXGroup;
+			children = (
+				41E6610B13E137B1000D99F7 /* PickMeAppDelegate.h */,
+				41E6610C13E137B1000D99F7 /* PickMeAppDelegate.m */,
+				41E6610E13E137B1000D99F7 /* MainStoryboard_iPhone.storyboard */,
+				41E6611113E137B1000D99F7 /* MainStoryboard_iPad.storyboard */,
+				41E6611413E137B1000D99F7 /* PickMeViewController.h */,
+				41E6611513E137B1000D99F7 /* PickMeViewController.m */,
+				41E6610313E137B1000D99F7 /* Supporting Files */,
+			);
+			path = PickMe;
+			sourceTree = "<group>";
+		};
+		41E6610313E137B1000D99F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E6610413E137B1000D99F7 /* PickMe-Info.plist */,
+				41E6610513E137B1000D99F7 /* InfoPlist.strings */,
+				41E6610813E137B1000D99F7 /* main.m */,
+				41E6610A13E137B1000D99F7 /* PickMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41E6612413E137B1000D99F7 /* PickMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E6612A13E137B1000D99F7 /* PickMeTests.h */,
+				41E6612C13E137B1000D99F7 /* PickMeTests.m */,
+				41E6612513E137B1000D99F7 /* Supporting Files */,
+			);
+			path = PickMeTests;
+			sourceTree = "<group>";
+		};
+		41E6612513E137B1000D99F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E6612613E137B1000D99F7 /* PickMeTests-Info.plist */,
+				41E6612713E137B1000D99F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E660F713E137B1000D99F7 /* PickMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E6613013E137B1000D99F7 /* Build configuration list for PBXNativeTarget "PickMe" */;
+			buildPhases = (
+				41E660F413E137B1000D99F7 /* Sources */,
+				41E660F513E137B1000D99F7 /* Frameworks */,
+				41E660F613E137B1000D99F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickMe;
+			productName = PickMe;
+			productReference = 41E660F813E137B1000D99F7 /* PickMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E6611B13E137B1000D99F7 /* PickMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E6613313E137B1000D99F7 /* Build configuration list for PBXNativeTarget "PickMeTests" */;
+			buildPhases = (
+				41E6611713E137B1000D99F7 /* Sources */,
+				41E6611813E137B1000D99F7 /* Frameworks */,
+				41E6611913E137B1000D99F7 /* Resources */,
+				41E6611A13E137B1000D99F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E6612313E137B1000D99F7 /* PBXTargetDependency */,
+			);
+			name = PickMeTests;
+			productName = PickMeTests;
+			productReference = 41E6611C13E137B1000D99F7 /* PickMeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E660EF13E137B1000D99F7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41E660F213E137B1000D99F7 /* Build configuration list for PBXProject "PickMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41E660ED13E137B1000D99F7;
+			productRefGroup = 41E660F913E137B1000D99F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E660F713E137B1000D99F7 /* PickMe */,
+				41E6611B13E137B1000D99F7 /* PickMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E660F613E137B1000D99F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6610713E137B1000D99F7 /* InfoPlist.strings in Resources */,
+				41E6611013E137B1000D99F7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				41E6611313E137B1000D99F7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E6611913E137B1000D99F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6612913E137B1000D99F7 /* InfoPlist.strings in Resources */,
+				41E6612B13E137B1000D99F7 /* PickMeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41E6611A13E137B1000D99F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E660F413E137B1000D99F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6610913E137B1000D99F7 /* main.m in Sources */,
+				41E6610D13E137B1000D99F7 /* PickMeAppDelegate.m in Sources */,
+				41E6611613E137B1000D99F7 /* PickMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E6611713E137B1000D99F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6612D13E137B1000D99F7 /* PickMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E6612313E137B1000D99F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E660F713E137B1000D99F7 /* PickMe */;
+			targetProxy = 41E6612213E137B1000D99F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E6610513E137B1000D99F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E6610613E137B1000D99F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41E6610E13E137B1000D99F7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E6610F13E137B1000D99F7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		41E6611113E137B1000D99F7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E6611213E137B1000D99F7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		41E6612713E137B1000D99F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E6612813E137B1000D99F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E6612E13E137B1000D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41E6612F13E137B1000D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E6613113E137B1000D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickMe/PickMe-Prefix.pch";
+				INFOPLIST_FILE = "PickMe/PickMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41E6613213E137B1000D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickMe/PickMe-Prefix.pch";
+				INFOPLIST_FILE = "PickMe/PickMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41E6613413E137B1000D99F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PickMe.app/PickMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickMe/PickMe-Prefix.pch";
+				INFOPLIST_FILE = "PickMeTests/PickMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		41E6613513E137B1000D99F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PickMe.app/PickMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickMe/PickMe-Prefix.pch";
+				INFOPLIST_FILE = "PickMeTests/PickMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E660F213E137B1000D99F7 /* Build configuration list for PBXProject "PickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E6612E13E137B1000D99F7 /* Debug */,
+				41E6612F13E137B1000D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E6613013E137B1000D99F7 /* Build configuration list for PBXNativeTarget "PickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E6613113E137B1000D99F7 /* Debug */,
+				41E6613213E137B1000D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41E6613313E137B1000D99F7 /* Build configuration list for PBXNativeTarget "PickMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E6613413E137B1000D99F7 /* Debug */,
+				41E6613513E137B1000D99F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E660EF13E137B1000D99F7 /* Project object */;
+}
